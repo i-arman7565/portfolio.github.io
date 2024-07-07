@@ -1,6 +1,6 @@
 title: Algorithmic Problem Solving Portfolio
 description: Networking platforms such as LinkedIn utilize Data Structures and Algorithms (DSA) to effectively manage and foster connections among a large number of users. 
-logo: /assets/img/logo.png
+# logo: /assets/img/logo.png
 #description: text below image
 show_downloads: true
 theme: jekyll-theme-minimal
