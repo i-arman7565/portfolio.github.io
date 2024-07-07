@@ -24,7 +24,7 @@ LinkedIn is a professional networking platform designed to connect professionals
 
 LinkedIn relies on Data Structures and Algorithms (DSA) to improve search results, recommend relevant connections and content, manage user interactions, ensure data security, and enhance overall platform performance. They play a crucial role in optimizing user experiences and facilitating effective professional networking and career development on the platform.
 
-![Getting In Touech with LinkedIn](assets/architecture.png.png)
+![Getting In Touch with LinkedIn](assets/architecture.png)
 # lauda lassaa
 
 
