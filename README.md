@@ -1,5 +1,22 @@
-# Algorithmic Problem Solving Portfolio
-Networking platforms such as LinkedIn utilize Data Structures and Algorithms (DSA) to effectively manage and foster connections among a large number of users. DSA plays a crucial role in optimizing search, recommendations, and data management to improve user experience and platform performance on LinkedIn.
+![Header Image](assets/logo.jpg)
+
+## 📘 Course Information
+
+- **Course Name:** Algorithmic Problem Solving
+- **Course Code:** 23ECSE309
+- **Name:** Mohammad Arman Khan
+- **USN:** 01FE21BCI037
+- **University:** KLE Technological University, Hubballi-31
+
+## 📑 Table of Contents
+
+1. [Introduction](#introduction)
+2. [Business Cases](#business-cases)
+   - [Existing Functionalities](#existing-functionalities)
+   - [Proposed Functionalities](#proposed-functionalities)
+   - [Detailed Business Use Cases](#detailed-business-use-cases)
+3. [Performance Analysis](#performance-analysis)
+4. [References](#references)
 
 ### Introduction
 kjhkh kjhkjh kjhk kjhk jhkjhkjh jhgjhgjhgjhgj hjgh gjhg jhg 
