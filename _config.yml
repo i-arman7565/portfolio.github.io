@@ -4,3 +4,7 @@ description: My portfolio highlights integration of data structures and algorith
 #description: text below image
 show_downloads: true
 theme: jekyll-theme-minimal
+sass:
+  style: compressed
+include: ['/_scss']
+description below
