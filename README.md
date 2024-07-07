@@ -1,5 +1,5 @@
 ![Header Image](assets/logo.png)
-<img src="assets/logo.png" alt="Getting In Touch with LinkedIn" height="450">
+<img src="assets/logo.png" alt="Getting In Touch with LinkedIn" height="300">
 
 ## 📘 Course Information
 
@@ -23,7 +23,7 @@
 
 LinkedIn is a professional networking platform designed to connect professionals worldwide, facilitating career development, networking opportunities, and knowledge exchange. It serves as a digital hub where individuals and businesses showcase their professional profiles, share industry insights, and collaborate on projects. LinkedIn relies on Data Structures and Algorithms (DSA) to improve search results, recommend relevant connections and content, manage user interactions, ensure data security, and enhance overall platform performance. They play a crucial role in optimizing user experiences and facilitating effective professional networking and career development on the platform.
 
-<img src="assets/architecture.png" alt="Getting In Touch with LinkedIn" height="450">
+<img src="assets/architecture.png" alt="Getting In Touch with LinkedIn" height="350">
 
 ### Market Analysis
 
