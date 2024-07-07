@@ -1,4 +1,4 @@
-![Header Image](assets/logo.jpg)
+![Header Image](assets/logo1.jpg)
 
 # 📘 Course Information
 
