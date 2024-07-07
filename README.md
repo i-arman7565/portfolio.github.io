@@ -1,8 +1,8 @@
 ![Header Image](assets/logo.jpg)
 
-## 📘 Course Information
+# 📘 Course Information
 
-- **Course Name:** Algorithmic Problem Solving
+- *Course Name:* Algorithmic Problem Solving
 - **Course Code:** 23ECSE309
 - **Name:** Mohammad Arman Khan
 - **USN:** 01FE21BCI037
