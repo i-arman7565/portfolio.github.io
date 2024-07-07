@@ -1,6 +1,6 @@
 title: LinkedIn Portfolio
 description: My portfolio highlights integration of data structures and algorithms, demonstrating their application in LinkedIn.
-logo: /assets/logo.jpg
+# logo: /assets/logo.jpg
 #description: text below image
 show_downloads: true
 theme: jekyll-theme-minimal
