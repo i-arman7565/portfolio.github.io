@@ -142,7 +142,8 @@ The activity feed generation system aims to:
 
 The implementation involves using a priority queue to rank activities and a heap structure to retrieve the most relevant activities efficiently. The system is designed to handle real-time updates, ensuring users receive fresh and personalized content.
 
-Find the sample code for maxHeap priority queue [here](https://github.com/yazanobeidi/priority-queue)<br>
+Find the sample code for maxHeap priority queue [here](https://github.com/yazanobeidi/priority-queue)<br><br>
+
 ---
 
 ## 3. Profile Search and Indexing
