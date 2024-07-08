@@ -1,5 +1,5 @@
-![header image](assets/logo.png)
-<img src="assets/logo.png" alt="Getting In Touch with LinkedIn" height="300">
+<!-- ![header image](assets/logo.png) -->
+<img src="assets/logo.png" alt="Getting In Touch with LinkedIn" height="400">
 
 ## 📘 Course Information
 
