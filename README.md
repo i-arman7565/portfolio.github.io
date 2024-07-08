@@ -13,10 +13,6 @@
 
 1. [Introduction](#introduction)
 2. [Business Cases](#business-cases)
-   - [Existing Functionalities](#existing-functionalities)
-   - [Proposed Functionalities](#proposed-functionalities)
-   - [Detailed Business Use Cases](#detailed-business-use-cases)
-3. [Performance Analysis](#performance-analysis)
 4. [References](#references)
 
 ## Introduction
@@ -50,7 +46,6 @@ The efficient messaging system aims to:
 - Maintain sequential message order.
 
 ### Challenges
-- **Scalability:** Handle increasing message volume.
 - **Low Latency:** Ensure timely message delivery.
 - **Message Order:** Preserve message order across distributed systems.
 
@@ -83,6 +78,53 @@ The efficient messaging system aims to:
 ### Implementation
 
 The implementation involves setting up a distributed messaging architecture using queues for message handling and HashMaps for session management. This combination ensures efficient, real-time message delivery and scalability.
+
+## 2. Activity Feed Generation
+
+The activity feed generation system is designed to provide personalized and real-time updates to users, enhancing their engagement and experience on the platform.
+
+
+### Use Case
+
+The activity feed generation system aims to:
+- Generate personalized activity feeds for users.
+- Ensure real-time updates.
+- Handle a high volume of data efficiently.
+
+### Challenges
+- **Real-Time Updates:** Provide up-to-the-minute updates.
+- **Data Volume:** Handle large amounts of activity data.
+- **Personalization:** Ensure the feeds are relevant to each user.
+
+### Market Benefits
+- **Improved User Engagement:** Users stay engaged with fresh, relevant content.
+- **Personalized Experience:** Enhanced user satisfaction through tailored feeds.
+
+### Algorithms
+
+### a. Priority Queue
+- **Time Complexity:** O(log n) for insert and remove operations.
+- **Use Case:** Manage and rank activities based on relevance.
+
+### b. Heaps
+- **Time Complexity:** O(log n) for insertion operations.
+- **Use Case:** Efficient retrieval of top activities.
+
+### Approach
+
+1. **Activity Ranking:** Use a priority queue to manage and rank activities based on relevance.
+2. **Efficient Retrieval:** Implement a min-heap or max-heap to efficiently retrieve the top activities.
+3. **Real-Time Updates:** Design the system to update feeds in real-time as new activities occur.
+
+### Design
+
+- **Priority Queue:** Manages activity ranking and ensures efficient insertion and removal.
+- **Heap:** Facilitates quick retrieval of top-ranked activities.
+
+### Implementation
+
+The implementation involves using a priority queue to rank activities and a heap structure to retrieve the most relevant activities efficiently. The system is designed to handle real-time updates, ensuring users receive fresh and personalized content.
+
 
 ## References
 
