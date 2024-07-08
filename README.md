@@ -38,51 +38,49 @@ LinkedIn has established itself as a dominant force in professional networking w
 
 ## Business Cases
 
-### Efficient Messaging System
-
-#### Overview
+## 1. Efficient Messaging System
 
 The efficient messaging system is designed to facilitate real-time communication with features like instant message delivery and sequential message order. This system is crucial for applications such as chat platforms or collaborative tools.
 
-#### Use Case
+### Use Case
 
 The efficient messaging system aims to:
 - Facilitate real-time communication.
 - Ensure instant message delivery.
 - Maintain sequential message order.
 
-##### Challenges
+### Challenges
 - **Scalability:** Handle increasing message volume.
 - **Low Latency:** Ensure timely message delivery.
 - **Message Order:** Preserve message order across distributed systems.
 
-##### Market Benefits
+### Market Benefits
 - **Improved User Experience:** Enhanced responsiveness and reliability.
 - **Higher Engagement:** Increased user satisfaction and platform retention rates.
 
-#### Algorithms
+### Algorithms
 
-##### Queue
+### a. Queue
 - **Time Complexity:** O(1) for enqueue and dequeue operations.
 - **Use Case:** Message storage and retrieval.
 
-##### HashMap
+### b. HashMap
 - **Time Complexity:** O(1) for session tracking.
 - **Use Case:** Track user sessions and their message queues.
 
-#### Approach
+### Approach
 
 1. **Message Storage and Retrieval:** Use a queue for efficient message storage and retrieval.
 2. **Session Tracking:** Implement a HashMap to manage user sessions and their respective message queues.
 3. **Distributed Messaging Architecture:** Design a scalable architecture to handle high message volumes.
 
-#### Design
+### Design
 
 - **Queue:** Manages message storage and ensures ordered retrieval.
 - **HashMap:** Tracks user sessions and queues, providing constant-time access.
 - **Distributed Architecture:** Ensures scalability and low latency in message delivery.
 
-#### Implementation
+### Implementation
 
 The implementation involves setting up a distributed messaging architecture using queues for message handling and HashMaps for session management. This combination ensures efficient, real-time message delivery and scalability.
 
