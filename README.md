@@ -142,7 +142,7 @@ The activity feed generation system aims to:
 
 The implementation involves using a priority queue to rank activities and a heap structure to retrieve the most relevant activities efficiently. The system is designed to handle real-time updates, ensuring users receive fresh and personalized content.
 
-Find the sample code for maxHeap priority queue [here](https://github.com/yazanobeidi/priority-queue)<br>
+Find the sample code for maxHeap priority queue [here](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/PriorityQueue.cpp)<br>
 
 ---
 
@@ -191,8 +191,8 @@ The profile search and indexing system aims to:
 
 The implementation involves integrating a trie for prefix-based searches and B-Trees for efficient range queries. The system is designed to handle large datasets and ensure quick access to profile information.
 
-Find trie implementation [here](https://gist.github.com/calmhandtitan/7872405)<br>
-Find B-tree implementation [here](https://github.com/KhaledAshrafH/B-Tree)<br>
+Find trie implementation [here](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/Trie.cpp)<br>
+Find B-tree implementation [here](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/BPlusTrees.cpp)<br>
 
 ---
 
@@ -402,6 +402,8 @@ Implement Huffman coding to compress data efficiently:
 - Construct a Huffman tree to generate optimal encoding.
 - Encode data using Huffman codes and decode as required.
 
+View implementation : [link](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/HuffmanCoding.cpp)<br>
+
 ---
 
 ## 8. Notification System
@@ -451,6 +453,8 @@ The notification system aims to:
 
 The implementation involves deploying a notification system that utilizes queues for efficient message delivery and the observer pattern for personalized notifications. The system ensures scalability and real-time delivery of notifications to enhance user engagement.
 
+View implementation : [link](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/Deque.cpp)<br>
+
 ---
 
 
@@ -468,7 +472,6 @@ LinkedIn aims to monitor user engagement metrics in real-time to understand tren
    
 2. **Data Consistency**: Ensuring accurate and consistent engagement metrics across a distributed system is critical for generating reliable insights and maintaining user trust.
    
-3. **Scalability**: Scaling the system to accommodate LinkedIn’s vast user base and increasing data volume while maintaining low latency for real-time queries poses a significant challenge.
 
 ### Market Benefits
 
@@ -493,6 +496,7 @@ Designing a scalable architecture that integrates Fenwick trees with LinkedIn’
 ### Implementation
 
 Implementing Fenwick trees to track and update engagement metrics in real-time, ensuring data consistency and performance optimizations for high-volume updates.
+
 
 ---
 
