@@ -87,8 +87,9 @@ The efficient messaging system aims to:
 
 The implementation involves setting up a distributed messaging architecture using queues for message handling and HashMaps for session management. This combination ensures efficient, real-time message delivery and scalability.
 
-Find the sample code for queues [here](https://github.com/Xenoids/C-Queue/blob/master/Queue%20Array.cpp)
-Find the sample code for hashMap implementation [here](https://gist.github.com/aozturk/2368896)
+Find the sample code for queues [here](https://github.com/Xenoids/C-Queue/blob/master/Queue%20Array.cpp)<br>
+Find the sample code for hashMap implementation [here](https://gist.github.com/aozturk/2368896)<br>
+
 ---
 
 ## 2. Activity Feed Generation
@@ -141,7 +142,7 @@ The activity feed generation system aims to:
 
 The implementation involves using a priority queue to rank activities and a heap structure to retrieve the most relevant activities efficiently. The system is designed to handle real-time updates, ensuring users receive fresh and personalized content.
 
-Find the sample code for maxHeap priority queue [here](https://github.com/yazanobeidi/priority-queue)
+Find the sample code for maxHeap priority queue [here](https://github.com/yazanobeidi/priority-queue)<br>
 ---
 
 ## 3. Profile Search and Indexing
