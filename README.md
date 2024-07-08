@@ -497,6 +497,7 @@ Designing a scalable architecture that integrates Fenwick trees with LinkedIn’
 
 Implementing Fenwick trees to track and update engagement metrics in real-time, ensuring data consistency and performance optimizations for high-volume updates.
 
+Veiw implementation : [link](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/FenwickTree.cpp)<br>
 
 ---
 
