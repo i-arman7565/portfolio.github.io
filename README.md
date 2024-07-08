@@ -1,6 +1,8 @@
 <!-- ![header image](assets/logo.png) -->
 <img src="assets/logo.png" alt="Getting In Touch with LinkedIn" height="400">
 
+---
+
 ## 📘 Course Information
 
 - **Course Name:** Algorithmic Problem Solving
@@ -9,11 +11,15 @@
 - **USN:** 01FE21BCI037
 - **University:** KLE Technological University, Hubballi-31
 
+---
+
 ## 📑 Table of Contents
 
 1. [Introduction](#introduction)
 2. [Business Cases](#business-cases)
 4. [References](#references)
+
+---
 
 ## Introduction
 
@@ -512,6 +518,54 @@ The job matching system aims to:
 
 ---
 
+## 11. Data Sharding
+
+The data sharding system distributes data across multiple databases or shards to improve performance and scalability.
+
+### Use Case
+
+The data sharding system aims to:
+- Distribute large datasets across multiple database shards for improved read/write performance.
+- Ensure efficient data access and retrieval by distributing data based on key ranges.
+- Scale horizontally to handle growing data volumes and user traffic.
+
+### Challenges
+- **Consistency:** Maintain data consistency across distributed shards.
+- **Handling Large Datasets:** Efficiently manage and distribute large volumes of data.
+- **Dynamic Changes:** Adapt to changing data volumes and distribution requirements.
+
+### Market Benefits
+- **Improved Scalability:** Scales horizontally by adding more shards to accommodate growing data.
+- **Faster Data Access:** Reduces latency by distributing data closer to users or application instances.
+- **Optimized Performance:** Enhances system performance with distributed data storage and retrieval.
+
+### Algorithms
+
+### a. Consistent Hashing
+- **Time Complexity:** O(log n) for data distribution and lookup.
+- **Use Case:** Distributes data across shards while minimizing data movement when adding or removing shards.
+
+### b. Range Partitioning
+- **Time Complexity:** O(n) for partitioning data based on key ranges.
+- **Use Case:** Divides data into ranges to ensure balanced distribution across shards and efficient query processing.
+
+### Approach
+
+1. **Consistent Hashing:** Use consistent hashing to allocate data to shards based on a hash function, ensuring even distribution and minimal data movement.
+2. **Range Partitioning:** Implement range partitioning to distribute data based on key ranges, optimizing data retrieval and query performance.
+3. **Dynamic Scalability:** Design the sharding system to dynamically add or remove shards based on data volume and access patterns, ensuring scalability and performance.
+
+### Design
+
+- **Data Distribution:** Uses consistent hashing and range partitioning to distribute data efficiently across multiple shards.
+- **Consistency Management:** Ensures data consistency across distributed shards with replication or synchronization mechanisms.
+- **Scalability:** Scales horizontally by adding more shards to handle increasing data volumes and user traffic.
+
+### Implementation
+
+The implementation involves deploying a data sharding system that utilizes consistent hashing and range partitioning to distribute and manage large datasets across multiple database shards. The system is designed to optimize data access, ensure consistency, and scale dynamically with changing workload demands.
+
+---
 
 
 ## References
