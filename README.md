@@ -1,4 +1,4 @@
-![Header Image](assets/logo.png)
+![header image](assets/logo.png)
 <img src="assets/logo.png" alt="Getting In Touch with LinkedIn" height="300">
 
 ## 📘 Course Information
@@ -36,6 +36,7 @@ LinkedIn has established itself as a dominant force in professional networking w
 - Identify Optimization Opportunities where DSA can be further optimized to enhance platform performance and   user experience.
 - Propose new algorithms or optimizations that could better handle LinkedIn's massive user base and diverse functionalities.
 
+## Business Use Cases
 
 ## References
 
