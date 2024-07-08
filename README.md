@@ -308,7 +308,7 @@ LinkedIn seeks to provide job seekers with personalized recommendations that ali
   - Design a scalable architecture that integrates graph algorithms with LinkedIn's existing job recommendation infrastructure.
   - Ensure data consistency and accuracy across the job graph to deliver reliable and relevant job recommendations.
 
-<img src="assets/node2vec.png" alt=getting In Touch with LinkedIn" height="">
+<img src="assets/node2vec.png" alt="call 911 image not loading" height="">
 
 ### Implementation:
   - Implement graph algorithms (Node2Vec, random walk-based recommendation) using scalable frameworks and libraries.
