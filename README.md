@@ -175,7 +175,7 @@ The profile search and indexing system aims to:
 - **Time Complexity:** O(n) for insertion and search operations.
 - **Use Case:** Index profile information for quick prefix-based searches.
 
-<img src="assets/trie.webp" alt="call 911 image not loading" height="375">
+<img src="assets/trie.webp" alt="call 911 image not loading" height="400" width="500>
 
 #### b. B-Tree
 - **Time Complexity:** O(log n) for insertion and search operations.
@@ -205,6 +205,8 @@ Find B-tree implementation [here](https://github.com/i-arman7565/portfolio.githu
 ## 4. Load Balancing
 
 The load balancing system distributes incoming traffic evenly across servers, ensuring high availability and optimal performance.
+
+<img src="assets/loadbalancing.png" alt="Getting In Touch with LinkedIn" height="375">
 
 ### Use Case
 
