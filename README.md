@@ -23,13 +23,13 @@
 
 ## Introduction
 
-LinkedIn is a professional networking platform designed to connect professionals worldwide, facilitating career development, networking opportunities, and knowledge exchange. It serves as a digital hub where individuals and businesses showcase their professional profiles, share industry insights, and collaborate on projects. LinkedIn relies on Data Structures and Algorithms (DSA) to improve search results, recommend relevant connections and content, manage user interactions, ensure data security, and enhance overall platform performance. They play a crucial role in optimizing user experiences and facilitating effective professional networking and career development on the platform.
+LinkedIn is a professional networking platform designed to connect professionals worldwide, facilitating career development, networking opportunities, and knowledge exchange. It serves as a digital hub where individuals and businesses showcase their professional profiles, share industry insights, and collaborate on projects [[1]](https://en.wikipedia.org/wiki/LinkedIn). LinkedIn relies on Data Structures and Algorithms (DSA) to improve search results, recommend relevant connections and content, manage user interactions, ensure data security, and enhance overall platform performance. They play a crucial role in optimizing user experiences and facilitating effective professional networking and career development on the platform.[[2]](https://about.linkedin.com/)
 
 <img src="assets/architecture.png" alt="Getting In Touch with LinkedIn" height="350">
 
 ### Market Analysis
 
-LinkedIn has established itself as a dominant force in professional networking with significant market reach and impact. According to 99Firms, as of 2020, LinkedIn reported revenue of $8.05 billion and boasts over 830 million members globally. A substantial portion, approximately 31%, of LinkedIn's traffic originates from the United States. The platform has seen a notable surge in activity, particularly with a tripling of searches for remote work following the onset of the COVID-19 pandemic. Weekly job searches on LinkedIn reach up to 50 million, with 122 million individuals reportedly securing interviews through the platform. LinkedIn stands out in B2B lead generation, responsible for 80% of such leads from social media platforms. It's also recognized as the top-rated organic social media platform for B2B marketers, underscoring its pivotal role in professional networking and recruitment strategies worldwide. [[1]](https://99firms.com/blog/linkedin-statistics/#gref)
+LinkedIn has established itself as a dominant force in professional networking with significant market reach and impact. According to 99Firms, as of 2020, LinkedIn reported revenue of $8.05 billion and boasts over 830 million members globally. A substantial portion, approximately 31%, of LinkedIn's traffic originates from the United States.[[3]](https://thesocialshepherd.com/blog/linkedin-statistics) The platform has seen a notable surge in activity, particularly with a tripling of searches for remote work following the onset of the COVID-19 pandemic. Weekly job searches on LinkedIn reach up to 50 million, with 122 million individuals reportedly securing interviews through the platform. LinkedIn stands out in B2B lead generation, responsible for 80% of such leads from social media platforms. It's also recognized as the top-rated organic social media platform for B2B marketers, underscoring its pivotal role in professional networking and recruitment strategies worldwide. [[4]](https://99firms.com/blog/linkedin-statistics/#gref)
 
 ### Objectives
 
@@ -87,6 +87,8 @@ The efficient messaging system aims to:
 
 The implementation involves setting up a distributed messaging architecture using queues for message handling and HashMaps for session management. This combination ensures efficient, real-time message delivery and scalability.
 
+Find the sample code for queues [here](https://github.com/Xenoids/C-Queue/blob/master/Queue%20Array.cpp)
+Find the sample code for hashMap implementation [here](https://gist.github.com/aozturk/2368896)
 ---
 
 ## 2. Activity Feed Generation
@@ -139,6 +141,7 @@ The activity feed generation system aims to:
 
 The implementation involves using a priority queue to rank activities and a heap structure to retrieve the most relevant activities efficiently. The system is designed to handle real-time updates, ensuring users receive fresh and personalized content.
 
+Find the sample code for maxHeap priority queue [here](https://github.com/yazanobeidi/priority-queue)
 ---
 
 ## 3. Profile Search and Indexing
@@ -186,6 +189,9 @@ The profile search and indexing system aims to:
 
 The implementation involves integrating a trie for prefix-based searches and B-Trees for efficient range queries. The system is designed to handle large datasets and ensure quick access to profile information.
 
+Find trie implementation [here](https://gist.github.com/calmhandtitan/7872405)
+Find B-tree implementation [here](https://github.com/KhaledAshrafH/B-Tree)
+
 ---
 
 ## 4. Load Balancing
@@ -221,7 +227,6 @@ The load balancing system aims to:
 
 1. **Round Robin Algorithm:** Implement round-robin to evenly distribute requests across available servers.
 2. **Consistent Hashing:** Use consistent hashing to maintain balanced loads and minimize data reassignment during scaling events.
-3. **Dynamic Adjustment:** Design the load balancer to dynamically adjust based on current server loads and availability.
 
 ### Design
 
@@ -233,11 +238,11 @@ The load balancing system aims to:
 
 The implementation involves deploying a load balancing system that uses round-robin and consistent hashing algorithms to distribute traffic efficiently across server clusters. The system ensures high availability and optimal performance during varying traffic conditions.
 
+Find Round Robin and other CPU scheduling algorithms [here](https://github.com/yousefkotp/CPU-Scheduling-Algorithms)
+Find Consistent hashing implementation [here](https://github.com/prakharrai1609/consistent-hashing)
+
 ---
 
-Certainly! Here's how you can structure the README file for the job recommendation system using graph methods on LinkedIn:
-
----
 
 ## 5. Job Recommendation System using Graph Methods on LinkedIn
 
@@ -299,6 +304,7 @@ LinkedIn seeks to provide job seekers with personalized recommendations that ali
   - Integrate job recommendation algorithms into LinkedIn's backend systems to support real-time recommendation queries.
   - Conduct thorough testing and validation to ensure the effectiveness and accuracy of job recommendations generated by the system.
 
+[5][Learning Role-based Graph Embeddings](https://paperswithcode.com/paper/learning-role-based-graph-embeddings)
 ---
 
 ## 6. Connection Management
@@ -844,4 +850,8 @@ Implementation involves collaborating with stakeholders, including developers, s
 
 ## References
 
-[1] 99Firms. “Topic: LinkedIn Market Stats.” Accessed July 8, 2024. [Link](https://99firms.com/blog/linkedin-statistics/#gref)
+[1] Wikipedia. "Topic: LinkedIn", Accessed July 3,2024. [Link](https://en.wikipedia.org/wiki/LinkedIn)
+[2] LinkedIn. "Topic : About LinkedIn", Accessed July 4,2024. [Link](https://about.linkedin.com/)
+[3] TheSocialShepherd. "Topic : Linked market Statistics", Accessed July 4,4024. [Link](https://thesocialshepherd.com/blog/linkedin-statistics)
+[4] 99Firms. “Topic: LinkedIn Market Stats.” Accessed July 5, 2024. [Link](https://99firms.com/blog/linkedin-statistics/#gref)
+[5] papersWithCode. "Topic : Learning Role-based Graph Embeddings", Acessesed July 5,2024. [Link](https://paperswithcode.com/paper/learning-role-based-graph-embeddings)
