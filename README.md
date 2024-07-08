@@ -454,11 +454,11 @@ The session management system aims to:
 
 ### Algorithms
 
-### a. HashMap
+#### a. HashMap
 - **Time Complexity:** O(1) for get and put operations.
 - **Use Case:** Stores session data with quick access for authentication and state management.
 
-### b. Linked List
+#### b. Linked List
 - **Time Complexity:** O(1) for insertion and deletion operations.
 - **Use Case:** Tracks session timeouts and manages session lifecycle.
 
@@ -477,93 +477,6 @@ The session management system aims to:
 ### Implementation
 
 The implementation involves deploying a session management system that uses HashMaps and linked lists to efficiently manage session states and ensure secure user interactions. The system is designed to scale with user growth and maintain seamless session persistence across various devices.
-
----
-
-## 10. Job Matching
-
-The job matching system matches job listings with user profiles based on skills and preferences, enhancing job application rates and user satisfaction.
-
-### Use Case
-
-The job matching system aims to:
-- Match job listings with user profiles based on skills, experience, and preferences.
-- Ensure accurate and relevant job recommendations to increase application rates.
-- Provide personalized job search experiences tailored to individual user profiles.
-
-### Challenges
-- **Handling Large Datasets:** Process and match job listings and user profiles efficiently.
-- **Accuracy:** Ensure accurate job recommendations based on user skills and preferences.
-- **Real-Time Updates:** Maintain up-to-date job listings and user profiles for accurate matching.
-
-### Market Benefits
-- **Higher Job Application Rates:** Matches users with relevant job opportunities, increasing application rates.
-- **Better User Satisfaction:** Provides personalized job recommendations aligned with user preferences.
-- **Efficiency:** Optimizes job search processes with automated matching and recommendation systems.
-
-### Algorithms
-
-#### a. Binary Search Tree (BST)
-- **Time Complexity:** O(log n) for insertion and search operations.
-- **Use Case:** Indexes job listings for efficient retrieval and matching based on various attributes.
-
-#### b. HashMap
-- **Time Complexity:** O(1) for get and put operations.
-- **Use Case:** Stores user skills and preferences for quick lookup during job matching.
-
-### Approach
-
-1. **Job Indexing:** Use a Binary Search Tree (BST) to index job listings based on attributes like job title, location, and industry.
-2. **User Profile Matching:** Implement a HashMap to store user skills and preferences, facilitating quick lookup and matching
-
----
-
-## 11. Data Sharding
-
-The data sharding system distributes data across multiple databases or shards to improve performance and scalability.
-
-### Use Case
-
-The data sharding system aims to:
-- Distribute large datasets across multiple database shards for improved read/write performance.
-- Ensure efficient data access and retrieval by distributing data based on key ranges.
-- Scale horizontally to handle growing data volumes and user traffic.
-
-### Challenges
-- **Consistency:** Maintain data consistency across distributed shards.
-- **Handling Large Datasets:** Efficiently manage and distribute large volumes of data.
-- **Dynamic Changes:** Adapt to changing data volumes and distribution requirements.
-
-### Market Benefits
-- **Improved Scalability:** Scales horizontally by adding more shards to accommodate growing data.
-- **Faster Data Access:** Reduces latency by distributing data closer to users or application instances.
-- **Optimized Performance:** Enhances system performance with distributed data storage and retrieval.
-
-### Algorithms
-
-### a. Consistent Hashing
-- **Time Complexity:** O(log n) for data distribution and lookup.
-- **Use Case:** Distributes data across shards while minimizing data movement when adding or removing shards.
-
-### b. Range Partitioning
-- **Time Complexity:** O(n) for partitioning data based on key ranges.
-- **Use Case:** Divides data into ranges to ensure balanced distribution across shards and efficient query processing.
-
-### Approach
-
-1. **Consistent Hashing:** Use consistent hashing to allocate data to shards based on a hash function, ensuring even distribution and minimal data movement.
-2. **Range Partitioning:** Implement range partitioning to distribute data based on key ranges, optimizing data retrieval and query performance.
-3. **Dynamic Scalability:** Design the sharding system to dynamically add or remove shards based on data volume and access patterns, ensuring scalability and performance.
-
-### Design
-
-- **Data Distribution:** Uses consistent hashing and range partitioning to distribute data efficiently across multiple shards.
-- **Consistency Management:** Ensures data consistency across distributed shards with replication or synchronization mechanisms.
-- **Scalability:** Scales horizontally by adding more shards to handle increasing data volumes and user traffic.
-
-### Implementation
-
-The implementation involves deploying a data sharding system that utilizes consistent hashing and range partitioning to distribute and manage large datasets across multiple database shards. The system is designed to optimize data access, ensure consistency, and scale dynamically with changing workload demands.
 
 ---
 
@@ -603,6 +516,19 @@ The system aims to:
 2. **Linked List Usage:** Implement a linked list to maintain order and efficiently handle insertions.
 3. **Scalability Design:** Design the system to scale seamlessly with the increasing number of users and connections.
 
+### Design
+
+- **Data Structure Selection:** Utilize HashSet for fast access and management of follower/following relationships.
+- **Order Maintenance:** Implement a linked list to maintain the order of connections, ensuring efficient insertion and deletion.
+- **Scalability Considerations:** Design the system architecture to handle large volumes of user connections and interactions.
+
+### Implementation
+
+The implementation involves:
+- **Data Structure Integration:** Integrate HashSet and linked list functionalities to manage follower/following lists efficiently.
+- **Scalability Measures:** Implement strategies to scale the system as the user base grows, optimizing performance and responsiveness.
+- **User Interface Integration:** Integrate with the user interface to provide seamless interaction and management of connections.
+
 ---
 
 ## 13. Event Scheduling
@@ -641,7 +567,21 @@ The system aims to:
 2. **Priority Queue Usage:** Implement a priority queue to manage event notifications based on scheduled times.
 3. **Real-Time Updates:** Design the system to handle real-time updates and reminders for scheduled events.
 
+### Design
+
+- **Event Management:** Utilize interval trees to efficiently manage event schedules and avoid conflicts.
+- **Notification Handling:** Implement a priority queue to ensure timely event notifications based on scheduled times.
+- **Scalability Planning:** Design the system architecture to scale with increasing event volumes and user participation.
+
+### Implementation
+
+The implementation involves:
+- **Algorithm Integration:** Integrate interval tree and priority queue algorithms for effective event scheduling and notification management.
+- **Real-Time Updates:** Implement mechanisms for real-time updates and reminders to users about scheduled events.
+- **Scalability Measures:** Design the system to accommodate growth in event numbers and user participation, ensuring optimal performance and user satisfaction.
+
 ---
+
 
 ## References
 
