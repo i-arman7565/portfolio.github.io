@@ -89,8 +89,8 @@ The efficient messaging system aims to:
 
 The implementation involves setting up a distributed messaging architecture using queues for message handling and HashMaps for session management. This combination ensures efficient, real-time message delivery and scalability.
 
-Find the sample code for queues [here](https://github.com/Xenoids/C-Queue/blob/master/Queue%20Array.cpp)<br>
-Find the sample code for hashMap implementation [here](https://gist.github.com/aozturk/2368896)<br>
+View implementation :  [Queue](https://github.com/Xenoids/C-Queue/blob/master/Queue%20Array.cpp) , 
+ [Hash Map](https://gist.github.com/aozturk/2368896)<br>
 
 ---
 
@@ -146,7 +146,7 @@ The activity feed generation system aims to:
 
 The implementation involves using a priority queue to rank activities and a heap structure to retrieve the most relevant activities efficiently. The system is designed to handle real-time updates, ensuring users receive fresh and personalized content.
 
-Find the sample code for maxHeap priority queue [here](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/PriorityQueue.cpp)<br>
+View implementation : [Priority Queue](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/PriorityQueue.cpp)<br>
 
 ---
 
@@ -197,8 +197,8 @@ The profile search and indexing system aims to:
 
 The implementation involves integrating a trie for prefix-based searches and B-Trees for efficient range queries. The system is designed to handle large datasets and ensure quick access to profile information.
 
-Find trie implementation [here](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/Trie.cpp)<br>
-Find B-tree implementation [here](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/BPlusTrees.cpp)<br>
+View implementation :  [Trie](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/Trie.cpp), 
+ [B plus tree](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/BPlusTrees.cpp)<br>
 
 ---
 
@@ -253,12 +253,11 @@ Find Consistent hashing implementation [here](https://github.com/prakharrai1609/
 
 ---
 
-
 ## 5. Job Recommendation System using Graph Methods on LinkedIn
 
 LinkedIn aims to enhance its job recommendation system by leveraging graph methods to analyze the complex relationships between job seekers, job postings, skills, and career interests. By employing graph algorithms, LinkedIn can uncover nuanced connections and patterns that lead to more accurate and personalized job recommendations. 
 
-### Use Case:
+### Use Case
 
 LinkedIn seeks to provide job seekers with personalized recommendations that align closely with their skills, career interests, and professional aspirations.
 
@@ -278,13 +277,13 @@ LinkedIn seeks to provide job seekers with personalized recommendations that ali
 
 ### Algorithms
 
-#### a. Graph Embedding (Node2Vec):
+#### a. Graph Embedding (Node2Vec)
    - **Purpose:** Learn low-dimensional vector representations of nodes (users, job postings, skills) in the job graph, capturing their structural and semantic relationships.
    - **Application:** Construct a graph representing relationships between job seekers, job postings, and skills. Use Node2Vec to learn embeddings for each node, facilitating better understanding of their interconnections.
    - **Time Complexity:** O(d * V * E), where d is the dimensionality of embeddings, V is the number of nodes, and E is the number of edges.
    - **Space Complexity:** O(V + E), where V is the number of nodes and E is the number of edges.
 
-#### b. Random Walk-based Recommendation:
+#### b. Random Walk-based Recommendation
    - **Purpose:** Leverage graph embeddings to generate personalized job recommendations for users.
    - **Application:** Perform random walks starting from the user's profile to explore the job graph and identify relevant job postings that match the user's skills and career interests.
    - **Time Complexity:** O(k * V), where k is the number of random walks and V is the number of nodes.
@@ -308,6 +307,8 @@ LinkedIn seeks to provide job seekers with personalized recommendations that ali
 
   - Design a scalable architecture that integrates graph algorithms with LinkedIn's existing job recommendation infrastructure.
   - Ensure data consistency and accuracy across the job graph to deliver reliable and relevant job recommendations.
+
+<img src="assets/node2vec.png" alt=getting In Touch with LinkedIn" height="375">
 
 ### Implementation:
   - Implement graph algorithms (Node2Vec, random walk-based recommendation) using scalable frameworks and libraries.
@@ -410,7 +411,7 @@ Implement Huffman coding to compress data efficiently:
 - Construct a Huffman tree to generate optimal encoding.
 - Encode data using Huffman codes and decode as required.
 
-View implementation : [link](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/HuffmanCoding.cpp)<br>
+View implementation : [Huffman Coding](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/HuffmanCoding.cpp)<br>
 
 ---
 
@@ -435,6 +436,8 @@ LinkedIn seeks to monitor and track real-time events occurring within its platfo
 - **Purpose:** Heuristic-based search algorithm used for pathfinding and analyzing event spikes based on keyword or hashtag occurrences.
 - **Time Complexity:** Depends on the heuristic and graph structure, typically O(b^d), where b is the branching factor and d is the depth of the solution.
 - **Space Complexity:** O(b^d) due to the storage requirements for nodes in the search tree.
+
+<img src="assets/astar.png" alt="Getting In Touch with LinkedIn" height="375">
 
 ### Approach 
 - **Event Identification:** Apply the A* algorithm to detect significant spikes or bursts in activity related to specific keywords or hashtags.
