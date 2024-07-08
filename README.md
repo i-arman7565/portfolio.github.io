@@ -542,11 +542,12 @@ The data caching system aims to:
 
 - **LRU or LFU Cache:** Implements either strategy to optimize data access and storage.
 - **HashMap with Doubly Linked List:** Ensures efficient data retrieval and cache eviction.
-- **Invalidation Mechanism:** Maintains data consistency by updating cached data in real-time or on-demand.
 
 ### Implementation
 
 The implementation includes integrating an LRU or LFU caching system to store frequently accessed data and reduce database load. The system is designed to handle cache invalidation and ensure consistent data access with minimal latency.
+
+View implementation : [link](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/pageReplacement.cpp)
 
 ---
 
@@ -599,6 +600,8 @@ The rate limiting system aims to:
 
 The implementation involves integrating token and leaky bucket algorithms to enforce rate limits effectively. The system is designed to enhance security, optimize resource usage, and provide a consistent user experience across varying traffic conditions.
 
+View implementation : [link](https://github.com/hardikSinghBehl/rate-limiting-api-spring-boot)
+
 ---
 
 ## 12. Session Management
@@ -646,7 +649,8 @@ The session management system aims to:
 
 ### Implementation
 
-The implementation involves deploying a session management system that uses HashMaps and linked lists to efficiently manage session states and ensure secure user interactions. The system is designed to scale with user growth and maintain seamless session persistence across various devices.
+The implementation involves deploying a session management system that uses HashMaps and linked lists to efficiently manage session states and ensure secure user interactions. 
+
 
 ---
 
