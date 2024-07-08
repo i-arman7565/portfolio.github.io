@@ -175,11 +175,11 @@ The profile search and indexing system aims to:
 - **Time Complexity:** O(n) for insertion and search operations.
 - **Use Case:** Index profile information for quick prefix-based searches.
 
-<img src="assets/trie.webp" alt="call 911 image not loading" height="400" width="500>
-
 #### b. B-Tree
 - **Time Complexity:** O(log n) for insertion and search operations.
 - **Use Case:** Provide balanced indexing and efficient range queries.
+
+<img src="assets/trie.webp" alt="call 911 image not loading" height="400" width="500>
 
 ### Approach
 
@@ -198,7 +198,7 @@ The profile search and indexing system aims to:
 The implementation involves integrating a trie for prefix-based searches and B-Trees for efficient range queries. The system is designed to handle large datasets and ensure quick access to profile information.
 
 View implementation :  [Trie](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/Trie.cpp), 
- [B plus tree](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/BPlusTrees.cpp)<br>
+ [B-plus tree](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/BPlusTrees.cpp)<br>
 
 ---
 
@@ -308,7 +308,7 @@ LinkedIn seeks to provide job seekers with personalized recommendations that ali
   - Design a scalable architecture that integrates graph algorithms with LinkedIn's existing job recommendation infrastructure.
   - Ensure data consistency and accuracy across the job graph to deliver reliable and relevant job recommendations.
 
-<img src="assets/node2vec.png" alt="call 911 image not loading" height="">
+![node2vect](assets/node.jpg)
 
 ### Implementation:
   - Implement graph algorithms (Node2Vec, random walk-based recommendation) using scalable frameworks and libraries.
@@ -437,7 +437,9 @@ LinkedIn seeks to monitor and track real-time events occurring within its platfo
 - **Time Complexity:** Depends on the heuristic and graph structure, typically O(b^d), where b is the branching factor and d is the depth of the solution.
 - **Space Complexity:** O(b^d) due to the storage requirements for nodes in the search tree.
 
-<img src="assets/astar.png" alt="Getting In Touch with LinkedIn" height="">
+<!-- ![Astar](assets/Astar.png) -->
+
+<img src="assets/Astar.png" alt="Getting In Touch with LinkedIn" height="">
 
 ### Approach 
 - **Event Identification:** Apply the A* algorithm to detect significant spikes or bursts in activity related to specific keywords or hashtags.
