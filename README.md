@@ -308,7 +308,7 @@ LinkedIn seeks to provide job seekers with personalized recommendations that ali
   - Design a scalable architecture that integrates graph algorithms with LinkedIn's existing job recommendation infrastructure.
   - Ensure data consistency and accuracy across the job graph to deliver reliable and relevant job recommendations.
 
-<img src="assets/node2vec.png" alt=getting In Touch with LinkedIn" height="375">
+<img src="assets/node2vec.png" alt=getting In Touch with LinkedIn" height="">
 
 ### Implementation:
   - Implement graph algorithms (Node2Vec, random walk-based recommendation) using scalable frameworks and libraries.
@@ -437,7 +437,7 @@ LinkedIn seeks to monitor and track real-time events occurring within its platfo
 - **Time Complexity:** Depends on the heuristic and graph structure, typically O(b^d), where b is the branching factor and d is the depth of the solution.
 - **Space Complexity:** O(b^d) due to the storage requirements for nodes in the search tree.
 
-<img src="assets/astar.png" alt="Getting In Touch with LinkedIn" height="375">
+<img src="assets/astar.png" alt="Getting In Touch with LinkedIn" height="">
 
 ### Approach 
 - **Event Identification:** Apply the A* algorithm to detect significant spikes or bursts in activity related to specific keywords or hashtags.
