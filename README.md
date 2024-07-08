@@ -34,6 +34,8 @@ LinkedIn has established itself as a dominant force in professional networking w
 
 ## Business Cases
 
+---
+
 ## 1. Efficient Messaging System
 
 The efficient messaging system is designed to facilitate real-time communication with features like instant message delivery and sequential message order. This system is crucial for applications such as chat platforms or collaborative tools.
@@ -55,11 +57,11 @@ The efficient messaging system aims to:
 
 ### Algorithms
 
-### a. Queue
+#### a. Queue
 - **Time Complexity:** O(1) for enqueue and dequeue operations.
 - **Use Case:** Message storage and retrieval.
 
-### b. HashMap
+#### b. HashMap
 - **Time Complexity:** O(1) for session tracking.
 - **Use Case:** Track user sessions and their message queues.
 
@@ -79,6 +81,8 @@ The efficient messaging system aims to:
 
 The implementation involves setting up a distributed messaging architecture using queues for message handling and HashMaps for session management. This combination ensures efficient, real-time message delivery and scalability.
 
+---
+
 ## 2. Activity Feed Generation
 
 The activity feed generation system is designed to provide personalized and real-time updates to users, enhancing their engagement and experience on the platform.
@@ -92,21 +96,25 @@ The activity feed generation system aims to:
 - Handle a high volume of data efficiently.
 
 ### Challenges
+
 - **Real-Time Updates:** Provide up-to-the-minute updates.
 - **Data Volume:** Handle large amounts of activity data.
 - **Personalization:** Ensure the feeds are relevant to each user.
 
 ### Market Benefits
+
 - **Improved User Engagement:** Users stay engaged with fresh, relevant content.
 - **Personalized Experience:** Enhanced user satisfaction through tailored feeds.
 
 ### Algorithms
 
-### a. Priority Queue
+#### a. Priority Queue
+
 - **Time Complexity:** O(log n) for insert and remove operations.
 - **Use Case:** Manage and rank activities based on relevance.
 
-### b. Heaps
+#### b. Heaps
+
 - **Time Complexity:** O(log n) for insertion operations.
 - **Use Case:** Efficient retrieval of top activities.
 
@@ -124,6 +132,8 @@ The activity feed generation system aims to:
 ### Implementation
 
 The implementation involves using a priority queue to rank activities and a heap structure to retrieve the most relevant activities efficiently. The system is designed to handle real-time updates, ensuring users receive fresh and personalized content.
+
+---
 
 ## 3. Profile Search and Indexing
 
@@ -146,11 +156,11 @@ The profile search and indexing system aims to:
 
 ### Algorithms
 
-### a. Trie
+#### a. Trie
 - **Time Complexity:** O(n) for insertion and search operations.
 - **Use Case:** Index profile information for quick prefix-based searches.
 
-### b. B-Tree
+#### b. B-Tree
 - **Time Complexity:** O(log n) for insertion and search operations.
 - **Use Case:** Provide balanced indexing and efficient range queries.
 
@@ -193,11 +203,11 @@ The load balancing system aims to:
 
 ### Algorithms
 
-### a. Round Robin
+#### a. Round Robin
 - **Time Complexity:** O(1) for distributing requests.
 - **Use Case:** Distribute incoming requests evenly across server nodes.
 
-### b. Consistent Hashing
+#### b. Consistent Hashing
 - **Time Complexity:** O(log n) for distributing requests.
 - **Use Case:** Ensures minimal data movement when scaling server clusters.
 
@@ -240,11 +250,11 @@ The connection management system aims to:
 
 ### Algorithms
 
-### a. Graph Data Structures
+#### a. Graph Data Structures
 - **Adjacency List Time Complexity:** O(V + E) for space-efficient representation and operations.
 - **Adjacency Matrix Time Complexity:** O(V^2) for dense graphs, suitable for connectivity checks.
 
-### b. BFS (Breadth-First Search)
+#### b. BFS (Breadth-First Search)
 - **Time Complexity:** O(V + E) for exploring connections and suggesting new connections.
 - **Use Case:** Efficiently traverse the graph to recommend new connections.
 
@@ -263,6 +273,8 @@ The connection management system aims to:
 ### Implementation
 
 The implementation involves utilizing graph data structures and BFS algorithms to manage user connections effectively. The system is designed to enhance social networking experiences by facilitating efficient connection management and network exploration.
+
+---
 
 ## 6. Notification System
 
@@ -287,11 +299,11 @@ The notification system aims to:
 
 ### Algorithms
 
-### a. Queue
+#### a. Queue
 - **Time Complexity:** O(1) for enqueue and dequeue operations.
 - **Use Case:** Handles incoming notifications in a first-in, first-out manner.
 
-### b. Observer Pattern
+#### b. Observer Pattern
 - **Time Complexity:** O(1) for notifying subscribers.
 - **Use Case:** Allows users to subscribe and receive notifications based on their interests.
 
@@ -336,11 +348,11 @@ The data caching system aims to:
 
 ### Algorithms
 
-### a. LRU Cache (Least Recently Used)
+#### a. LRU Cache (Least Recently Used)
 - **Time Complexity:** O(1) for get and put operations.
 - **Use Case:** Caches frequently accessed data and evicts the least recently used items when the cache reaches its capacity.
 
-### b. LFU Cache (Least Frequently Used)
+#### b. LFU Cache (Least Frequently Used)
 - **Time Complexity:** O(log n) for get and put operations.
 - **Use Case:** Caches data based on frequency of access and evicts the least frequently used items.
 
@@ -374,22 +386,24 @@ The rate limiting system aims to:
 - Manage high throughput efficiently without compromising performance.
 
 ### Challenges
+
 - **Fairness:** Enforce fair usage policies to allocate resources equitably.
 - **High Throughput:** Handle a large volume of requests while maintaining responsiveness.
 - **Dynamic Adjustment:** Adjust rate limits dynamically based on user behavior and system load.
 
 ### Market Benefits
+
 - **Improved Security:** Mitigates the risk of DoS attacks and unauthorized access attempts.
 - **Better Resource Management:** Optimizes resource allocation and usage across the system.
 - **Enhanced User Experience:** Ensures consistent performance and availability for all users.
 
 ### Algorithms
 
-### a. Token Bucket
+#### a. Token Bucket
 - **Time Complexity:** O(1) for checking and updating token availability.
 - **Use Case:** Controls the rate of requests by allowing a fixed number of tokens to be consumed per time interval.
 
-### b. Leaky Bucket
+#### b. Leaky Bucket
 - **Time Complexity:** O(1) for checking and updating water level.
 - **Use Case:** Smooths out bursty traffic by leaking tokens at a constant rate.
 
@@ -483,11 +497,11 @@ The job matching system aims to:
 
 ### Algorithms
 
-### a. Binary Search Tree (BST)
+#### a. Binary Search Tree (BST)
 - **Time Complexity:** O(log n) for insertion and search operations.
 - **Use Case:** Indexes job listings for efficient retrieval and matching based on various attributes.
 
-### b. HashMap
+#### b. HashMap
 - **Time Complexity:** O(1) for get and put operations.
 - **Use Case:** Stores user skills and preferences for quick lookup during job matching.
 
@@ -495,6 +509,10 @@ The job matching system aims to:
 
 1. **Job Indexing:** Use a Binary Search Tree (BST) to index job listings based on attributes like job title, location, and industry.
 2. **User Profile Matching:** Implement a HashMap to store user skills and preferences, facilitating quick lookup and matching
+
+---
+
+
 
 ## References
 
