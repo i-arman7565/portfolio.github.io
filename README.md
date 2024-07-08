@@ -504,7 +504,7 @@ The notification system aims to:
 
 The implementation involves deploying a notification system that utilizes queues for efficient message delivery and the observer pattern for personalized notifications. The system ensures scalability and real-time delivery of notifications to enhance user engagement.
 
-View implementation : [link](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/Deque.cpp)<br>
+View implementation : [Astar](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/Deque.cpp)<br>
 
 ---
 
@@ -583,6 +583,8 @@ The data caching system aims to:
 - **Time Complexity:** O(log n) for get and put operations.
 - **Use Case:** Caches data based on frequency of access and evicts the least frequently used items.
 
+![Lru-Lfu](assets/lru.gif)
+
 ### Approach
 
 1. **Cache Implementation:** Choose between LRU or LFU caching strategies based on access patterns and data characteristics.
@@ -651,7 +653,7 @@ The rate limiting system aims to:
 
 The implementation involves integrating token and leaky bucket algorithms to enforce rate limits effectively. The system is designed to enhance security, optimize resource usage, and provide a consistent user experience across varying traffic conditions.
 
-View implementation : [link](https://github.com/hardikSinghBehl/rate-limiting-api-spring-boot)<br>
+View implementation : [rate limiting algorithm](https://github.com/hardikSinghBehl/rate-limiting-api-spring-boot)<br>
 
 ---
 
@@ -675,6 +677,8 @@ The session management system aims to:
 - **Improved User Experience:** Provides seamless navigation and interaction across sessions.
 - **Enhanced Security:** Protects user data and prevents unauthorized access.
 - **Scalability:** Scales to support growing user bases and increasing session volumes.
+
+![session](assets/session.svg)
 
 ### Algorithms
 
@@ -702,13 +706,15 @@ The session management system aims to:
 
 The implementation involves deploying a session management system that uses HashMaps and linked lists to efficiently manage session states and ensure secure user interactions. 
 
-View implementation : [Link](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/linkedList.cpp)<br>
+View implementation : [LinkedList](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/linkedList.cpp)<br>
 
 ---
 
 ## 14. Follower/Following Management
 
 The follower/following management system is designed to efficiently handle user connections and interactions within the platform.
+
+![follower/following](assets/flll.jpg)
 
 ### Use Case
 
