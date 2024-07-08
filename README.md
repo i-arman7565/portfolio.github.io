@@ -567,6 +567,81 @@ The implementation involves deploying a data sharding system that utilizes consi
 
 ---
 
+## 12. Follower/Following Management
+
+The follower/following management system is designed to efficiently handle user connections and interactions within the platform.
+
+### Use Case
+
+The system aims to:
+- Manage follower and following lists efficiently.
+- Ensure quick updates and insertions.
+- Scale with the growing number of users and connections.
+
+### Challenges
+- **Handling Large Lists:** Efficiently manage large lists of followers and followings.
+- **Quick Updates:** Ensure fast insertion and removal operations.
+- **Scalability:** Design the system to handle increasing numbers of users and connections.
+
+### Market Benefits
+- **Enhanced User Experience:** Users can seamlessly manage their connections.
+- **Increased Social Interactions:** Facilitates better engagement among users.
+
+### Algorithms
+
+### a. HashSet
+- **Time Complexity:** O(1) for add and remove operations.
+- **Use Case:** Store follower and following lists for quick updates.
+
+### b. Linked List
+- **Time Complexity:** O(1) for insertion operations.
+- **Use Case:** Maintain order and handle insertions efficiently.
+
+### Approach
+
+1. **HashSet Implementation:** Use HashSet to store and manage follower/following relationships.
+2. **Linked List Usage:** Implement a linked list to maintain order and efficiently handle insertions.
+3. **Scalability Design:** Design the system to scale seamlessly with the increasing number of users and connections.
+
+---
+
+## 13. Event Scheduling
+
+The event scheduling system facilitates the management and scheduling of various events such as webinars and live sessions.
+
+### Use Case
+
+The system aims to:
+- Schedule and manage events effectively.
+- Handle conflicts and ensure timely notifications.
+- Increase user engagement and event attendance.
+
+### Challenges
+- **Handling Conflicts:** Manage overlapping event schedules.
+- **Timely Notifications:** Ensure users receive event updates promptly.
+- **Scalability:** Scale the system to accommodate a growing number of events and users.
+
+### Market Benefits
+- **Increased User Engagement:** Users participate more actively in scheduled events.
+- **Higher Event Attendance:** Ensure more users attend scheduled events.
+
+### Algorithms
+
+### a. Interval Tree
+- **Time Complexity:** O(log n) for insert and search operations.
+- **Use Case:** Manage event time slots and avoid scheduling conflicts.
+
+### b. Priority Queue
+- **Time Complexity:** O(log n) for insert and remove operations.
+- **Use Case:** Handle event notifications based on scheduled times.
+
+### Approach
+
+1. **Interval Tree Implementation:** Use an interval tree to manage event time slots and avoid conflicts.
+2. **Priority Queue Usage:** Implement a priority queue to manage event notifications based on scheduled times.
+3. **Real-Time Updates:** Design the system to handle real-time updates and reminders for scheduled events.
+
+---
 
 ## References
 
