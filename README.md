@@ -25,7 +25,7 @@
 
 LinkedIn is a professional networking platform designed to connect professionals worldwide, facilitating career development, networking opportunities, and knowledge exchange. It serves as a digital hub where individuals and businesses showcase their professional profiles, share industry insights, and collaborate on projects [[1]](https://en.wikipedia.org/wiki/LinkedIn). LinkedIn relies on Data Structures and Algorithms (DSA) to improve search results, recommend relevant connections and content, manage user interactions, ensure data security, and enhance overall platform performance. They play a crucial role in optimizing user experiences and facilitating effective professional networking and career development on the platform.[[2]](https://about.linkedin.com/)
 
-<img src="assets/architecture.png" alt="Getting In Touch with LinkedIn" height="350">
+<img src="assets/architecture.png" alt="Getting In Touch with LinkedIn" height="375">
 
 ### Market Analysis
 
@@ -83,6 +83,8 @@ The efficient messaging system aims to:
 - **HashMap:** Tracks user sessions and queues, providing constant-time access.
 - **Distributed Architecture:** Ensures scalability and low latency in message delivery.
 
+<img src="assets/messagin.png" alt="call 911" height="375">
+
 ### Implementation
 
 The implementation involves setting up a distributed messaging architecture using queues for message handling and HashMaps for session management. This combination ensures efficient, real-time message delivery and scalability.
@@ -138,6 +140,8 @@ The activity feed generation system aims to:
 - **Priority Queue:** Manages activity ranking and ensures efficient insertion and removal.
 - **Heap:** Facilitates quick retrieval of top-ranked activities.
 
+<img src="assets/feed.gif" alt="Getting In Touch with LinkedIn" height="375">
+
 ### Implementation
 
 The implementation involves using a priority queue to rank activities and a heap structure to retrieve the most relevant activities efficiently. The system is designed to handle real-time updates, ensuring users receive fresh and personalized content.
@@ -170,6 +174,8 @@ The profile search and indexing system aims to:
 #### a. Trie
 - **Time Complexity:** O(n) for insertion and search operations.
 - **Use Case:** Index profile information for quick prefix-based searches.
+
+<img src="assets/trie.webp" alt="call 911 image not loading" height="375">
 
 #### b. B-Tree
 - **Time Complexity:** O(log n) for insertion and search operations.
