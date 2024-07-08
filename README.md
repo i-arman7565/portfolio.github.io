@@ -406,7 +406,45 @@ View implementation : [link](https://github.com/i-arman7565/portfolio.github.io/
 
 ---
 
-## 8. Notification System
+## 8 . Real Time Event Tracking
+LinkedIn aims to enhance its real-time event detection capabilities by leveraging the A* algorithm. This heuristic-based approach can effectively analyze sudden spikes in events and bursts of activity related to specific keywords or hashtags within LinkedIn's network.
+
+### Use Case
+LinkedIn seeks to monitor and track real-time events occurring within its platform, such as trending topics, viral content, or significant user activities related to professional networking, job postings, or industry-specific discussions. 
+
+### Challenges 
+- **Analyzing Sudden Spikes:** Identifying and analyzing sudden increases in activity or events across LinkedIn's vast network in real-time.
+- **Algorithmic Complexity:** Implementing the A* algorithm efficiently to ensure quick response times without compromising accuracy.
+
+### Market Benefits
+- **Real-Time Event Tracking:** Improve LinkedIn’s ability to track and respond to real-time events.
+- **Timely Response:** Enable quick actions and decisions based on real-time data insights.
+
+### Algorithm
+
+#### A* Algorithm
+
+- **Purpose:** Heuristic-based search algorithm used for pathfinding and analyzing event spikes based on keyword or hashtag occurrences.
+- **Time Complexity:** Depends on the heuristic and graph structure, typically O(b^d), where b is the branching factor and d is the depth of the solution.
+- **Space Complexity:** O(b^d) due to the storage requirements for nodes in the search tree.
+
+### Approach 
+- **Event Identification:** Apply the A* algorithm to detect significant spikes or bursts in activity related to specific keywords or hashtags.
+- **Analysis and Reporting:** Analyze detected events to provide actionable insights and real-time updates to LinkedIn users and administrators.
+
+### Design 
+  - Design a scalable architecture to integrate the A* algorithm with LinkedIn's existing data pipelines and event processing systems.
+  - Ensure robust data consistency and accuracy to deliver reliable event detection and reporting.
+
+### Implementation 
+  - Implement the A* algorithm using efficient data structures and algorithms tailored for real-time event detection.
+  - Integrate event detection capabilities into LinkedIn's backend infrastructure to support continuous monitoring and timely response to breaking events.
+
+View implementation : [link](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/AStar.cpp)<br>
+
+---
+
+## 9. Notification System
 
 The notification system implements a real-time mechanism for delivering notifications, ensuring scalability, and personalization.
 
@@ -458,7 +496,7 @@ View implementation : [link](https://github.com/i-arman7565/portfolio.github.io/
 ---
 
 
-## 9. Real-Time Engagement Tracking on LinkedIn
+## 10. Real-Time Engagement Tracking on LinkedIn
 
 LinkedIn emphasizes the importance of user engagement metrics to enhance user experience and provide valuable insights to content creators and advertisers. Implementing a real-time tracking system for engagement metrics such as likes, reactions, and comments can significantly improve user interaction analysis and platform responsiveness.
 
@@ -501,7 +539,7 @@ Veiw implementation : [link](https://github.com/i-arman7565/portfolio.github.io/
 
 ---
 
-## 10. Data Caching
+## 11. Data Caching
 
 The data caching system caches frequently accessed data to improve performance and reduce database load.
 
@@ -547,11 +585,11 @@ The data caching system aims to:
 
 The implementation includes integrating an LRU or LFU caching system to store frequently accessed data and reduce database load. The system is designed to handle cache invalidation and ensure consistent data access with minimal latency.
 
-View implementation : [link](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/pageReplacement.cpp)
+View implementation : [link](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/pageReplacement.cpp)<br>
 
 ---
 
-## 11. Rate Limiting
+## 12. Rate Limiting
 
 The rate limiting system controls and limits the number of requests a user or client can make to prevent abuse and maintain system stability.
 
@@ -600,11 +638,11 @@ The rate limiting system aims to:
 
 The implementation involves integrating token and leaky bucket algorithms to enforce rate limits effectively. The system is designed to enhance security, optimize resource usage, and provide a consistent user experience across varying traffic conditions.
 
-View implementation : [link](https://github.com/hardikSinghBehl/rate-limiting-api-spring-boot)
+View implementation : [link](https://github.com/hardikSinghBehl/rate-limiting-api-spring-boot)<br>
 
 ---
 
-## 12. Session Management
+## 13. Session Management
 
 The session management system efficiently manages user sessions to ensure seamless user experiences and enhanced security.
 
@@ -651,10 +689,11 @@ The session management system aims to:
 
 The implementation involves deploying a session management system that uses HashMaps and linked lists to efficiently manage session states and ensure secure user interactions. 
 
+View implementation : [Link](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/linkedList.cpp)<br>
 
 ---
 
-## 13. Follower/Following Management
+## 14. Follower/Following Management
 
 The follower/following management system is designed to efficiently handle user connections and interactions within the platform.
 
@@ -703,9 +742,11 @@ The implementation involves:
 - **Scalability Measures:** Implement strategies to scale the system as the user base grows, optimizing performance and responsiveness.
 - **User Interface Integration:** Integrate with the user interface to provide seamless interaction and management of connections.
 
+View implementation : [link](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/HashTables.java)<br>
+
 ---
 
-## 14. Event Scheduling
+## 15. Event Scheduling
 
 The event scheduling system facilitates the management and scheduling of various events such as webinars and live sessions.
 
@@ -754,9 +795,10 @@ The implementation involves:
 - **Real-Time Updates:** Implement mechanisms for real-time updates and reminders to users about scheduled events.
 - **Scalability Measures:** Design the system to accommodate growth in event numbers and user participation, ensuring optimal performance and user satisfaction.
 
+View implementation : [Link](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/PriorityQueue.cpp)<br>
 ---
 
-## 15. Sorting Job Listings on LinkedIn
+## 16. Sorting Job Listings on LinkedIn
 
 LinkedIn needs to sort a vast amount of job listings that exceed the available memory capacity, ensuring efficient sorting while preserving order across the dataset.
 
@@ -788,9 +830,11 @@ Sorting job listings on LinkedIn based on relevance and applicant fit.
 
 Collect data and then apply mergesort to sort the data based on job listing
 
+View implementation: [Link](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/MergeSort.cpp)<br>
+
 ---
 
-## 16. Payment Processing
+## 17. Payment Processing
 
 In the realm of digital commerce, efficient and secure payment processing systems are fundamental to customer satisfaction and operational success.
 
@@ -803,9 +847,7 @@ LinkedIn implements a seamless payment processing system for its premium service
 Implementing robust payment processing systems involves overcoming several challenges:
 
 1. **Security**: Protecting sensitive financial information against cyber threats and fraud is paramount.
-2. **Scalability**: Handling a large volume of transactions efficiently without compromising performance.
-3. **Regulatory Compliance**: Adhering to stringent regulatory requirements to ensure legality and trustworthiness.
-4. **User Experience**: Providing a seamless and intuitive payment experience to enhance customer satisfaction.
+3. **Compliance**: Adhering to stringent regulatory requirements to ensure legality and trustworthiness.
 5. **Integration**: Integrating with diverse payment gateways and financial institutions while maintaining compatibility and reliability.
 
 ### Algorithms
@@ -848,13 +890,14 @@ Key design considerations include:
 
 1. **Security Layers**: Implementing encryption, tokenization, and SSL/TLS protocols to safeguard data in transit and at rest.
 2. **Fault Tolerance**: Designing for redundancy and failover to ensure continuous operation.
-3. **Scalability**: Using distributed architectures and cloud services to handle peak loads and future growth.
-4. **User Experience**: Designing an intuitive interface for seamless payment flows and error handling.
-5. **Compliance**: Ensuring adherence to PCI DSS and other regulatory standards governing payment processing.
+
 
 ### Implementation
 
 Implementation involves collaborating with stakeholders, including developers, security experts, and compliance officers, to ensure a comprehensive and compliant solution.
+
+View implementation for Merkel Tree: [link](https://github.com/sputnik1458/merkle-tree/tree/master/src)<br>
+[7][A Review Paper on DES, AES, RSA Encryption Standards](https://ieeexplore.ieee.org/document/9336800)<br>
 
 ---
 
@@ -868,3 +911,4 @@ Implementation involves collaborating with stakeholders, including developers, s
 [4] 99Firms. “Topic: LinkedIn Market Stats.” Accessed July 5, 2024. [Link](https://99firms.com/blog/linkedin-statistics/#gref)<br>
 [5] papersWithCode. "Topic : Learning Role-based Graph Embeddings", Acessesed July 5,2024. [Link](https://paperswithcode.com/paper/learning-role-based-graph-embeddings)<br>
 [6] Slideshare. "Topic : Random walk algorithm", Accessesed July 5,2024. [Link](https://www.slideshare.net/slideshow/write-a-c-program-which-generates-and-displays-a-random-walk-acrospdf/258947524)<br>
+[7] IEEE explore. "Topic : RSA and AES encryption", Accessesed July 6,2024. [link](https://ieeexplore.ieee.org/document/9336800)<br>
