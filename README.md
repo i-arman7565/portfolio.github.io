@@ -371,11 +371,11 @@ Find the implementation of BFS with adjacency list [link](https://gist.github.co
 
 ## 7. Data Compression in LinkedIn's Infrastructure
 
-LinkedIn manages vast amounts of data including user profiles, connections, posts, and interactions across its platform. Efficient data storage and transmission are critical to ensuring a seamless user experience and optimizing operational costs. Huffman coding, a lossless data compression technique, can be leveraged to reduce storage requirements and enhance data transmission speeds.
+LinkedIn manages vast amounts of data including user profiles, connections, posts, and interactions across its platform. Efficient data storage and transmission are critical to ensuring a seamless user experience and optimizing operational costs. 
 
 ### Use Case
 
-Implementing Huffman coding enables LinkedIn to:
+Implementing data compression enables LinkedIn to:
 - **Reduce Data Size:** Compress frequently occurring data patterns to minimize storage space.
 - **Enhance Data Transmission:** Transmit compressed data faster across networks, improving performance.
 - **Optimize Storage:** Lower infrastructure costs by reducing the volume of stored data.
@@ -397,6 +397,8 @@ Implementing Huffman coding enables LinkedIn to:
 #### Huffman Coding
 - **Time Complexity:** O(n log n) for building the Huffman tree, where n is the number of symbols.
 - **Space Complexity:** O(n) for storing the Huffman tree and encoded data.
+
+![huffaman coading](assets/Huffman_huff_demo.gif)<br>
 
 ### Design
 
