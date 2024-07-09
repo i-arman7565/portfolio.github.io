@@ -453,7 +453,7 @@ LinkedIn seeks to monitor and track real-time events occurring within its platfo
   - Implement the A* algorithm using efficient data structures and algorithms tailored for real-time event detection.
   - Integrate event detection capabilities into LinkedIn's backend infrastructure to support continuous monitoring and timely response to breaking events.
 
-View implementation : [link](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/AStar.cpp)<br>
+View implementation : [A star](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/AStar.cpp)<br>
 
 ---
 
@@ -498,13 +498,12 @@ The notification system aims to:
 
 - **Queue:** Ensures FIFO delivery of notifications.
 - **Observer Pattern:** Facilitates personalized notification delivery based on user preferences.
-- **Scalability:** Designed to handle increasing load with horizontal scaling.
 
 ### Implementation
 
 The implementation involves deploying a notification system that utilizes queues for efficient message delivery and the observer pattern for personalized notifications. The system ensures scalability and real-time delivery of notifications to enhance user engagement.
 
-View implementation : [Astar](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/Deque.cpp)<br>
+View implementation : [Queue](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/Deque.cpp)<br>
 
 ---
 
@@ -548,7 +547,7 @@ Designing a scalable architecture that integrates Fenwick trees with LinkedIn’
 
 Implementing Fenwick trees to track and update engagement metrics in real-time, ensuring data consistency and performance optimizations for high-volume updates.
 
-Veiw implementation : [link](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/FenwickTree.cpp)<br>
+Veiw implementation : [Fenwick Tree](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/FenwickTree.cpp)<br>
 
 ---
 
@@ -600,7 +599,7 @@ The data caching system aims to:
 
 The implementation includes integrating an LRU or LFU caching system to store frequently accessed data and reduce database load. The system is designed to handle cache invalidation and ensure consistent data access with minimal latency.
 
-View implementation : [link](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/pageReplacement.cpp)<br>
+View implementation : [Page Replacement](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/pageReplacement.cpp)<br>
 
 ---
 
@@ -761,7 +760,7 @@ The implementation involves:
 - **Scalability Measures:** Implement strategies to scale the system as the user base grows, optimizing performance and responsiveness.
 - **User Interface Integration:** Integrate with the user interface to provide seamless interaction and management of connections.
 
-View implementation : [link](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/HashTables.java)<br>
+View implementation : [Hash Table](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/HashTables.java)<br>
 
 ---
 
@@ -814,7 +813,8 @@ The implementation involves:
 - **Real-Time Updates:** Implement mechanisms for real-time updates and reminders to users about scheduled events.
 - **Scalability Measures:** Design the system to accommodate growth in event numbers and user participation, ensuring optimal performance and user satisfaction.
 
-View implementation : [Link](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/PriorityQueue.cpp)<br>
+View implementation : [Priority Queue](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/PriorityQueue.cpp)<br>
+
 ---
 
 ## 16. Sorting Job Listings on LinkedIn
@@ -849,7 +849,7 @@ Sorting job listings on LinkedIn based on relevance and applicant fit.
 
 Collect data and then apply mergesort to sort the data based on job listing
 
-View implementation: [Link](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/MergeSort.cpp)<br>
+View implementation: [Merge Sort](https://github.com/i-arman7565/portfolio.github.io/blob/main/codes/MergeSort.cpp)<br>
 
 ---
 
@@ -915,7 +915,7 @@ Key design considerations include:
 
 Implementation involves collaborating with stakeholders, including developers, security experts, and compliance officers, to ensure a comprehensive and compliant solution.
 
-View implementation for Merkel Tree: [link](https://github.com/sputnik1458/merkle-tree/tree/master/src)<br>
+View implementation for Merkel Tree: [Merkle-tree](https://github.com/sputnik1458/merkle-tree/tree/master/src)<br>
 [7][A Review Paper on DES, AES, RSA Encryption Standards](https://ieeexplore.ieee.org/document/9336800)<br>
 
 ---
