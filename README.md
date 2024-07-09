@@ -175,11 +175,11 @@ The profile search and indexing system aims to:
 - **Time Complexity:** O(n) for insertion and search operations.
 - **Use Case:** Index profile information for quick prefix-based searches.
 
+<img src="assets/trie.webp" alt="call 911 image not loading" height="400"><br>
+
 #### b. B-Tree
 - **Time Complexity:** O(log n) for insertion and search operations.
 - **Use Case:** Provide balanced indexing and efficient range queries.
-
-<img src="assets/trie.webp" alt="call 911 image not loading" height="400"><br>
 
 ![call 911 image not laoding](assets/bsearch.jpg)
 
@@ -878,6 +878,8 @@ Several DSA algorithms are pivotal in payment processing systems:
    - AES: O(1) for encryption and decryption.
    - RSA: O(n^2) for key generation, O(n^3) for encryption and decryption.
 
+   ![call 911 imaag not loading](assets/RSA-algorithm-in-C.jpg)<br>
+
 #### b. Hashing Algorithms
    (e.g., SHA-256) verify data integrity and facilitate quick data retrieval.
    - SHA-256: O(n) for hashing.
@@ -887,9 +889,13 @@ Several DSA algorithms are pivotal in payment processing systems:
    - Construction: O(n log n)
    - Verification: O(log n)
 
+
+
 #### d. Sorting Algorithms
    (e.g., Quicksort) used in transaction processing and reporting.
    - Quicksort: O(n log n)
+
+
 
 
 ### Approach:
