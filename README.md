@@ -179,7 +179,8 @@ The profile search and indexing system aims to:
 - **Time Complexity:** O(log n) for insertion and search operations.
 - **Use Case:** Provide balanced indexing and efficient range queries.
 
-<img src="assets/trie.webp" alt="call 911 image not loading" height="400">
+<img src="assets/trie.webp" alt="call 911 image not loading" height="400"><br>
+
 ![call 911 image not laoding](assets/bsearch.jpg)
 
 
