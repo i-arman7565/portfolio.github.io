@@ -349,6 +349,8 @@ The connection management system aims to:
 - **Time Complexity:** O(V + E) for exploring connections and suggesting new connections.
 - **Use Case:** Efficiently traverse the graph to recommend new connections.
 
+![BFS](assets/Animated_BFS.gif)
+
 ### Approach
 
 1. **Graph Representation:** Use adjacency lists to efficiently store user connections while conserving memory.
@@ -542,6 +544,8 @@ LinkedIn aims to monitor user engagement metrics in real-time to understand tren
 - **Purpose**: Data structure for efficient range queries and updates of cumulative frequencies.
 - **Time Complexity**: O(log n) for both updates and prefix sum queries.
 - **Space Complexity**: O(n) for storing the Fenwick tree.
+
+![fenwick](assets/fenwick.gif)<br>
 
 ### Design 
 
