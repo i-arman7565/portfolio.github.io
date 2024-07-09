@@ -486,6 +486,8 @@ The notification system aims to:
 - **Time Complexity:** O(1) for enqueue and dequeue operations.
 - **Use Case:** Handles incoming notifications in a first-in, first-out manner.
 
+![queue](assets/circular%20queue.gif)<br>
+
 #### b. Observer Pattern
 - **Time Complexity:** O(1) for notifying subscribers.
 - **Use Case:** Allows users to subscribe and receive notifications based on their interests.
